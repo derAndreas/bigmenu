@@ -1,5 +1,5 @@
 
-# cmpbigmenu
+# bigmenu
 
   Simple Big Menu CSS component
 
@@ -18,7 +18,7 @@
 
 ## Installation
 
-    $ component install derandreas/cmpbigmenu
+    $ component install derandreas/bigmenu
 
   
   To build no versions, you need stylus. So run

@@ -1,6 +1,6 @@
 {
   "author": "Andreas Mairhofer <andreas@classphp.de>",
-  "name": "cmpbigmenu",
+  "name": "bigmenu",
   "description": "CSS Big Menu Component",
   "version": "0.0.1",
   "dependencies": {},
