@@ -7,6 +7,8 @@
   Based on the tutorial of http://designmodo.com/create-css3-mega-menu/
   Search Icon image from famfam icon set silk http://www.famfamfam.com
 
+  ![Demo screenshot](https://raw.github.com/derAndreas/bigmenu/master/images/demo-screenshot.png "Demo Screenshot")
+
   HTML is pretty forward, see example.html for details
 
   The CSS is done with stylus (http://learnboost.github.com/stylus/) and
