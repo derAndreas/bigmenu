@@ -1,0 +1,14 @@
+{
+  "author": "Andreas Mairhofer <andreas@classphp.de>",
+  "name": "cmpbigmenu",
+  "description": "CSS Big Menu Component",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "stylus": "~0.32.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

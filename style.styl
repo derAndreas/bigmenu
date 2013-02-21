@@ -1,0 +1,184 @@
+//Color Config
+nav-bg = #5E412F
+nav-border-color = #aaa
+nav-border-split-color = #79543e
+nav-bg-hover = #F0A830
+nav-text-color = #fcfcfc
+nav-search-text-color = #999
+nav-search-text-color-focus = #FCEBB6
+menu-bg = #fafafa
+menu-heading = #F07818
+menu-link-color = #5E412F
+menu-link-color-hover = #78C0A8
+
+.nav,
+.nav a,
+.nav ul,
+.nav li,
+.nav div,
+.nav form,
+.nav input
+  // Reset
+  margin 0
+  padding 0
+  border none
+  outline none
+
+.nav
+  cursor default
+  display inline-block
+  position relative
+  z-index 500
+
+  a
+    text-decoration none
+
+  li
+    list-style none
+
+  & > li
+    display block
+    float left
+
+    &:hover > a
+      background nav-bg-hover
+
+    &:first-child > a
+      border-radius 3px 0 0 3px
+      border-left none
+
+    & > a
+      background nav-bg
+      border-left 1px solid nav-border-color
+      border-right 1px solid nav-border-split-color
+      color nav-text-color
+      display block
+      font-family Helvetica, Arial, sans-serif
+      font-weight bold
+      font-size 13px
+      height 54px
+      line-height 54px
+      padding 0 20px
+      position relative
+      text-shadow 0 0 1px rgba(0, 0, 0, 0.35)
+      z-index 510
+
+      -webkit-transition all .3s ease
+      -moz-transition all .3s ease
+      -o-transition all .3s ease
+      -ms-transition all .3s ease
+      transition all .3s ease
+
+
+
+
+    &.nav-search
+      & > form
+        border-left 1px solid nav-border-color
+        height 54px
+        position relative
+        width inherit
+        z-index 510
+
+      input[type="text"]
+        background nav-bg
+        color nav-search-text-color
+        display block
+        float left
+        font-family Helvetica, Arial, sans-serif
+        font-weight bold
+        font-size 13px
+        height 24px
+        line-height 24px
+        padding 15px 0
+        text-shadow 0 0 1px rgba(0, 0, 0, .35)
+        width 1px
+
+        -webkit-transition all .3s ease 1s
+        -moz-transition all .3s ease 1s
+        -o-transition all .3s ease 1s
+        -ms-transition all .3s ease 1s
+        transition all .3s ease 1s
+
+        &:focus
+          color nav-search-text-color-focus
+
+      input[type="text"]:focus,
+      &:hover input[type="text"]
+        width 110px
+        padding 15px 20px
+
+        -webkit-transition all .3s ease .1s
+        -moz-transition all .3s ease .1s
+        -o-transition all .3s ease .1s
+        -ms-transition all .3s ease .1s
+        transition all .3s ease .1s
+
+      input[type="submit"]
+        background nav-bg url(/images/magnifier.png) no-repeat center center
+        border-radius 0 3px 3px 0
+        cursor pointer
+        display block
+        float left
+        height 54px
+        padding 0 25px
+        width 20px
+
+        -webkit-transition all .3s ease
+        -moz-transition all .3s ease
+        -o-transition all .3s ease
+        -ms-transition all .3s ease
+        transition all .3s ease
+
+        &:hover
+          background-color nav-bg
+
+    & > div
+      background menu-bg
+      border-radius 0 0 3px 3px
+      display block
+      left 0
+      opacity 0
+      overflow hidden
+      position absolute
+      top 50px
+      visibility hidden
+      width 100%
+
+      -webkit-transition all .3s ease .15s
+      -moz-transition all .3s ease .15s
+      -o-transition all .3s ease .15s
+      -ms-transition all .3s ease .15s
+      transition all .3s ease .15s
+
+    &:hover > div
+      opacity 1
+      overflow visible
+      visibility visible
+
+  & .nav-column
+    float left
+    padding 2.5%
+    width 20%
+
+    h3
+      color menu-heading
+      font-family Helvetica, Arial, sans-serif
+      font-weight bold
+      font-size 14px
+      line-height 18px
+      margin 20px 0 10px 0
+      text-transform uppercase
+
+    li a
+      color menu-link-color
+      display block
+      font-family Helvetica, Arial, sans-serif
+      font-weight bold
+      font-size 13px
+      line-height 26px
+
+      &:hover
+        color menu-link-color-hover
+
+

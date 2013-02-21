@@ -1,0 +1,10 @@
+{
+  "name": "cmpbigmenu",
+  "repo": "derandreas/cmpbigmenu",
+  "description": "Simple Big Menu CSS component",
+  "version": "0.0.1",
+  "keywords": ["big menu"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT"
+}
